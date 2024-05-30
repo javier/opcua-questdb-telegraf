@@ -1,0 +1,8 @@
+export OPCUA_ENDPOINT="opc.tcp://milo.digitalpetri.com:62541/milo" # will use the public milo demo server. See https://github.com/digitalpetri/opc-ua-demo-server?tab=readme-ov-file#eclipse-milo-opc-ua-demo-server
+# export OPCUA_ENDPOINT="opc.tcp://127.0.0.1:62541/milo" #uncomment to use your own local milo server
+export TELEGRAF_LOG_FILE="/tmp/telegraf.log"
+export RANDOM_METRICS_TABLE_NAME="opcua_metrics"
+export SERVER_METRICS_TABLE_NAME="opcua_server_metrics"
+export QUESTDB_HTTP_ENDPOINT="http://127.0.0.1:9000"
+export QUESTDB_HTTP_TOKEN="" #if using QuestDB Cloud or Enterprise, you will need to use `ALTER USER john CREATE TOKEN TYPE REST`. Refer to QuestDB docs. QuestDB OSS will ignore this property
+export QUESTDB_SKIP_TLS_VERIFICATION=true  # This is in case you are self-managing QuestDB under TLS with a self-signed certificate
