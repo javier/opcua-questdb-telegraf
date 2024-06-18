@@ -34,7 +34,7 @@ extend the existing telegraf config.
    cd opcua-questdb-telegraf
    ```
 
-2. **Set up envirinment variables**:
+2. **Set up environment variables**:
 
 The behaviour of this integration can be configured via environment variables that are referenced at the telegraf
 configuration file. To make things easier, this repository provides a `telegraf_env` with sensible default values.
