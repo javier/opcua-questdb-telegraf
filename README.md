@@ -73,7 +73,7 @@ output. Please make sure QuestDB is up and running before starting Telegraf.
    ```
 
 Telegraf will start and will connect to the server. You should see in the logs that metrics are collected every few seconds
-and are flushed a few times a minute. Once you start metrics behind flushed, you can connect to the QuestDB web console,
+and are flushed a few times a minute. Once you start seeing metrics being flushed, you can connect to the QuestDB web console,
 which defaults to http://localhost:9000, and issue queries like:
 
 ```sql
